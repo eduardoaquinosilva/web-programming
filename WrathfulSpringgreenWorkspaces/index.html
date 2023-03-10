@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width">
+	  <title>replit</title>
+	  <link href="style.css" rel="stylesheet" type="text/css"/>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+		<style>
+			#pad {
+				background: #def;
+				border: 1px solid #aaa;
+			}
+			
+			#ball {
+				position: relative;
+			}
+			#box {
+				width: 640px;
+				height: 480px;
+				background: green;
+				border: 1px solid #444;
+			}
+		</style>
+	</head>
+	
+	<body>	
+		<a id="linkb" href="http://exemplo.com"> Link teste</a>
+		
+		<h3 id="message">Clique no botão</h3>
+		<input type="button" value="Ok!" onmouseover="bomDia()">
+
+		<h3>Insira o primeiro e último nome e clique no botão</h3>
+		<form>
+			Primeiro nome: <input type="text" id="first" size="15" autofocus onchange="this.form.elements['last'].disabled=false">
+			Último nome: <input type="text" id="last" size="15" disabled><br>
+			<input type="button" value="Gerar Email" onclick="generateEmail(this.form)">
+		</form>
+		<p id="email"></p>
+
+		<img src="https://cdn.pixabay.com/photo/2017/07/31/15/25/kitten-2558459_960_720.jpg" width="230" height="180" onmouseover="this.src='https://cdn.pixabay.com/photo/2019/04/06/15/58/cat-4107662_960_720.jpg'" onmouseout="this.src='https://cdn.pixabay.com/photo/2017/07/31/15/25/kitten-2558459_960_720.jpg'">
+
+		jQuery is a <code>fast</code>, <code>small</code>, and <code>feature-rich</code> JavaScript library>
+
+		<blackquote>jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.</blackquote>
+		<div id="aviso">AVISO</div>
+		<p>Meu <span class="novo">novo</span> website</p>
+		
+		<button id="ok">OK</button>
+		<p id="result">Resultado</p>
+
+		<h2>Clique dentro e fora dos campos.</h2>
+		<input id="first"><input><input><input>
+
+		<h2>Teste duplo clique.</h2>
+		<button class="myClass">B1</button>
+		<button class="myClass">B2</button>
+		<button class="myClass">B3</button>
+		<button class="myClass">B4</button>
+		<button class="myClass">B5</button>
+
+		<canvas id="pad" width="480" height="320"></canvas>
+
+		<h2 id="test">Passe o mouse.</h2>
+		<img>
+
+		<form id="form">
+			Primeiro nome: <input id="fname" type="text" name="fname"><br>
+			Sobrenome: <input id="lname" type="text" name="lname"><br>
+			<input type="submit">
+		</form>
+
+		<button id="hide">Esconder</button>
+		<button id="show">Mostrar</button>
+		<h1 id="text">Clique nos botões</h1>
+
+		<button id="toggle">Toggle</button>
+		<h1 id="text">Clique no botão.</h1>
+
+		<button id="fadeout">fadeOut</button>
+		<button id="fadein">fadeIn</button>
+		<button id="fadetoggle">fadeToggle</button>
+		<button id="fadeto">fadeTo</button>
+		<p id="text">Clique nos botões.</p>
+
+		<button id="slideup">slideUp</button>
+		<button id="slidedown">slideDown</button>
+		<button id="slidetoggle">slideToggle</button>
+		<div id="para" style="background: #def">
+			<h2>jQuery</h2>
+			<p>jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.</p>
+		</div>
+
+		<div id="box"></div>
+		<div id="ball" src="https://icons.iconarchive.com/icons/icons-lang"></div>
+
+		<p id="intro">Conteúdo do parágrafo</p>
+
+		<a href="http://google.com" title="Google">Visitar Google</a>
+		<code>Programa1</code>
+		<p><button id="a">Remover imagem</button><button id="b">Apagar texto</button></p>
+		<img id="ball" src="https://icons.iconarchive.com/icons/icons-land/sport/64/Soccer-Ball-icon.png">
+		<blockquote id="quote" style="border: 1px ditted #444; height: 20px;">test</blockquote>
+		
+	  <script src="script.js"></script> 
+		<script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+	</body>
+</html>

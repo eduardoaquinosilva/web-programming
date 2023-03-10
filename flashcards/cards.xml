@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<flashcards>
+  <card>
+    <file>card-jobs-01.png</file>
+    <term>Artist</term>
+  </card>
+  <card>
+    <file>card-jobs-02.png</file>
+    <term>Astronaut</term>
+  </card>
+  <card>
+    <file>card-jobs-03.png</file>
+    <term>Bus driver</term>
+  </card>
+  <card>
+    <file>card-jobs-04.png</file>
+    <term>Chef</term>
+  </card>
+  <card>
+    <file>card-jobs-05.png</file>
+    <term>Dentist</term>
+  </card>
+  <card>
+    <file>card-jobs-06.png</file>
+    <term>Doctor</term>
+  </card>
+  <card>
+    <file>card-jobs-07.png</file>
+    <term>Farmer</term>
+  </card>
+  <card>
+    <file>card-jobs-08.png</file>
+    <term>Firefighter</term>
+  </card>
+  <card>
+    <file>card-jobs-09.png</file>
+    <term>Fisherman</term>
+  </card>
+  <card>
+    <file>card-jobs-10.png</file>
+    <term>Mail carrier</term>
+  </card>
+  <card>
+    <file>card-jobs-11.png</file>
+    <term>Musician</term>
+  </card>
+  <card>
+    <file>card-jobs-12.png</file>
+    <term>Nurse</term>
+  </card>
+  <card>
+    <file>card-jobs-13.png</file>
+    <term>Painter</term>
+  </card>
+  <card>
+    <file>card-jobs-14.png</file>
+    <term>Pilot</term>
+  </card>
+  <card>
+    <file>card-jobs-15.png</file>
+    <term>Police officer</term>
+  </card>
+  <card>
+    <file>card-jobs-16.png</file>
+    <term>Taxi driver</term>
+  </card>
+  <card>
+    <file>card-jobs-17.png</file>
+    <term>Teacher</term>
+  </card>
+  <card>
+    <file>card-jobs-18.png</file>
+    <term>Waiter</term>
+  </card>
+</flashcards>

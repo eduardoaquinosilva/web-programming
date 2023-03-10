@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+.outside {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    margin: auto;
+    position: fixed;
+    background: rgba(0, 0, 0, .5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.inside {
+    min-width: 300px;
+    width: 320px;
+    position: relative;
+    animation: modal 0.5s;
+    background-color: rgb(167, 255, 189);
+    border-radius: 10px;
+    padding: 1%;
+    color: #000;
+}
+
+@keyframes modal {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -60px, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.btn-close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+#btn-check {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    display: flex;
+}
